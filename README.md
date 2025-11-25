@@ -1,3 +1,3 @@
-# Java OOP Practices
+# Java Practices
 
 Практические задания по Java.  
