@@ -16,8 +16,10 @@ class Child extends Parent {
     }
 
     // нельзя переопределить final метод - ошибка
-    // @Override
-    // public void show() { }
+    /* @Override 
+     public void show() {
+         System.out.println("переопределённый метод с final");
+    }*/
 }
 
 public class FinalMethodExample {
