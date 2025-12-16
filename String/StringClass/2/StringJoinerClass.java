@@ -6,7 +6,7 @@ public class StringJoinerClass {
         StringJoiner testSJ = new StringJoiner("-");
         testSJ.setEmptyValue("Empty");
         System.out.println(testSJ); // Empty
-        // объединение
+        // добавление
         testSJ.add("Один");
         System.out.println(testSJ); // Один
         testSJ.add("Два");
