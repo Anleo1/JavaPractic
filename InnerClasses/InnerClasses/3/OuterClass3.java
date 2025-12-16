@@ -46,6 +46,17 @@ class OuterClass3 {
 public class OuterInner3 {
     public static void main(String[] args) {
         OuterClass3 outer = new OuterClass3();
+        System.out.println(outer.new InnerClass().publicInnerField);
+        System.out.println(outer.new InnerClass().protectedInnerField);
+        System.out.println(outer.new InnerClass().packageInnerField);
+        //System.out.println(outer.new InnerClass().privateInnerField); - ошибка компиляции
+
+        // Доступ к методам внутреннего класса:
+        outer.new InnerClass().publicInnerMethod();
+        outer.new InnerClass().packagePrivateInnerMethod();
+        outer.new InnerClass().protectedInnerMethod();
+        //outer.new InnerClass().privateInnerMethod(); - ошибка компиляции
+        
         outer.accessInnerClass();
     }
 }
