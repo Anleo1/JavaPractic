@@ -1,6 +1,5 @@
 public class Formatting {
     public static void main(String[] args) {
-        // Пример 1: %s - строковое представление
         String name = "Anastasia";
         int course = 3;
         boolean isStudent = true;
@@ -22,6 +21,5 @@ public class Formatting {
 
         // %f — число с плавающей точкой
         System.out.printf("Число с плавающей точкой: %.4f%n", num);
-
     }
 }
