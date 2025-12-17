@@ -1,6 +1,6 @@
-class TypeOperations {
+public class TypeOperations {
     public static void main(String[] args) {
-        System.out.println("5) Автоматическое преобразование(расширение) типов");
+        System.out.println("Автоматическое преобразование(расширение) типов");
 
         int i = 7;
         double d = 5.9545;
@@ -22,7 +22,7 @@ class TypeOperations {
         int newR = c + i1;
         System.out.println("char + int → int: " + (int)c +  "('" + c + "') + " + i1 + " = " + newR);
 
-        System.out.println("\n6) Сужающее преобразование типов");
+        System.out.println("\nСужающее преобразование типов");
 
         //отбрасываем вещественную часть
         double d1 = 45.567;
