@@ -1,4 +1,4 @@
-class StringConcatenation {
+public class StringConcatenation {
     public static void main(String[] args) {
         String name = "Максим";
         int age = 30;
